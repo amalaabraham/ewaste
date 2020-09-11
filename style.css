@@ -1,0 +1,71 @@
+body {
+	position: absolute;
+    width: 100%;
+}
+form {
+	
+	margin-bottom: auto;
+	margin-left: 15%;
+	margin-right: 15%;
+    border: 3px solid #f1f1f1;
+}
+
+input[type=text], input[type=password], input[type=email], input[type=tel]
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 16px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+button {
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    margin: 0 0 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.new {
+    width: 160px;
+    border-radius: 40%;
+}
+
+.container {
+    padding: 16px;
+}
+
+@media screen and (max-width: 300px) {
+	form {
+	margin-bottom: auto;
+	margin-left: 15%;
+	margin-right: 15%;
+    border: 3px solid #f1f1f1;
+}
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+
+input[type=radio]
+{
+    margin:0 10px 0 10px;
+}
