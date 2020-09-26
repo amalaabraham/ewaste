@@ -1,1 +1,1 @@
-An ewaste management application
+An ewaste management application.
